@@ -16,7 +16,7 @@ function hundlerequst() {
     const longitude = position.coords.longitude;
     const location = `${latitude},${longitude}`;
 
-    myrequest.open('GET', `http://api.weatherapi.com/v1/forecast.json?${apiKey}&q=${location}&days=3`)
+    myrequest.open('GET', `https://api.weatherapi.com/v1/forecast.json?${apiKey}&q=${location}&days=3`)
     myrequest.send()
     myrequest.addEventListener("readystatechange", function () {
       if (this.readyState == 4) {
@@ -133,4 +133,5 @@ for (let i = 0; i < navLinks.length; i++) {
     // Add 'active' to the clicked link
     this.classList.add('active');
   });
+
 }
