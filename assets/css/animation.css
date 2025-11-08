@@ -1,0 +1,30 @@
+/* KEYFRAMES */
+@keyframes progress-1 {
+  from {
+    width: 25%;
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes progress-2 {
+  from {
+    width: 25%;
+  }
+
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes progress-3 {
+  from {
+    width: 25%;
+  }
+
+  to {
+    width: 95%;
+  }
+}
